@@ -24,5 +24,23 @@
 // var otherDate = new Date('01-06-2005')
 
 // console.log(otherDate, otherDate.setDate(12));
-const d = new Date("October 13, 2014 11:13:00");
-document.getElementById("demo").innerHTML = d;
+// const d = new Date("October 13, 2014 11:13:00");
+// document.getElementById("demo").innerHTML = d;
+
+var colors = ['red', 'green','black', 'white', 'yellow', '#4ee243','red', 'green','black', 'grey', 'lightpink', '#4ee243']
+
+// Check Array Length
+//  console.log("Length",colors, colors.length);
+
+var randomNumber = Math.random()
+console.log("randomNumber", colors[parseInt(randomNumber * colors.length)]);
+// var number = Math.round(10.634)
+// console.log(" number round", number);
+// var numberCeil = Math.ceil(10.434)
+// console.log("numberCeil", numberCeil);
+// var numberfloor = Math.floor(10.934)
+// console.log("numberfloor", numberfloor);
+
+// var someNumber = 23.236345;
+// var numberRoundAt = someNumber.toFixed(2)
+// console.log("numberRoundAt", numberRoundAt);
