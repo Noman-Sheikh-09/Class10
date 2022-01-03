@@ -27,13 +27,13 @@
 // const d = new Date("October 13, 2014 11:13:00");
 // document.getElementById("demo").innerHTML = d;
 
-var colors = ['red', 'green','black', 'white', 'yellow', '#4ee243','red', 'green','black', 'grey', 'lightpink', '#4ee243']
+// var colors = ['red', 'green','black', 'white', 'yellow', '#4ee243','red', 'green','black', 'grey', 'lightpink', '#4ee243']
 
 // Check Array Length
 //  console.log("Length",colors, colors.length);
+// var randomNumber = Math.random()
 
-var randomNumber = Math.random()
-console.log("randomNumber", colors[parseInt(randomNumber * colors.length)]);
+// console.log("randomNumber", colors[parseInt(randomNumber * colors.length)]);
 // var number = Math.round(10.634)
 // console.log(" number round", number);
 // var numberCeil = Math.ceil(10.434)
@@ -44,3 +44,25 @@ console.log("randomNumber", colors[parseInt(randomNumber * colors.length)]);
 // var someNumber = 23.236345;
 // var numberRoundAt = someNumber.toFixed(2)
 // console.log("numberRoundAt", numberRoundAt);
+
+// Date Handling
+
+// var date = new Date();
+// date.getFullYear();
+// console.log(date);
+// var weekDay = date.getDay()
+// var days = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat']
+// console.log("weekDay", weekDay, days[weekDay]);
+// console.log("date time", date);
+// var d = new Date();
+// var b = d.getMonth();
+// console.log(b);
+// var c = d.getMinutes();
+// console.log(c);
+// var e = d.getSeconds()
+// console.log(e);
+// var f =d.getHours();
+// console.log(f);
+
+
+
